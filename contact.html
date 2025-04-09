@@ -274,7 +274,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
             const SUPABASE_URL = 'https://kbqimugccerakdzmachw.supabase.co';
             const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImticWltdWdjY2VyYWtkem1hY2h3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDQyMTQ5NDcsImV4cCI6MjA1OTc5MDk0N30.uTRx6OXITqI6l-imNVNEjE79tlPYboYZT7ySPn7qaSU';
         
-            const supabase = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+            window.supabase = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
         </script>
     
     </body>
