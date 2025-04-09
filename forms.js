@@ -18,6 +18,7 @@ document.getElementById('contactForm1').addEventListener('submit', async (e) => 
       .insert([{ email }]);
   
     if (error) {
+        console.error('Supabase insert error:', error);
       alert('Something went wrong!');
     } else {
       alert('Contact form submitted!');
@@ -46,6 +47,7 @@ document.getElementById('contactForm1').addEventListener('submit', async (e) => 
       .insert([{ name, subject, email }]);
   
     if (error) {
+        console.error('Supabase insert error:', error);
       alert('Something went wrong!');
     } else {
       alert('Registration successful!');
