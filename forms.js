@@ -29,7 +29,7 @@ document.getElementById('contactForm1').addEventListener('submit', async (e) => 
   document.getElementById('contactForm2').addEventListener('submit', async (e) => {
     e.preventDefault();
     const name = document.querySelector('#name2').value;
-    const subject = document.querySelector('#subject2').value;
+    const lastname = document.querySelector('#lastname2').value;
     const email = document.querySelector('#email2').value;
   
     const { data: existing, error: findError } = await supabase
@@ -44,7 +44,7 @@ document.getElementById('contactForm1').addEventListener('submit', async (e) => 
   
     const { error } = await supabase
       .from('Register')
-      .insert([{ name, subject, email }]);
+      .insert([{ name, lastname, email }]);
   
     if (error) {
         console.error('Supabase insert error:', error);
