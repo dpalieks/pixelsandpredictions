@@ -1193,7 +1193,7 @@ h3 {
   background-repeat: no-repeat;
   background-size: contain;
   z-index: -1;
-  left: -14.5%;
+  left: -6.5%;
   width: 120%;
   height: 120%;
   top: -7%;
@@ -1229,7 +1229,7 @@ h3 {
 }
 
 /* line 97, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
-.slider_area .title_text h3 {
+.slider_area .title_text h1 {
   font-size: 90px;
   font-weight: 700;
   text-transform: capitalize;
@@ -1240,8 +1240,8 @@ h3 {
 
 @media (max-width: 767px) {
   /* line 97, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
-  .slider_area .title_text h3 {
-    font-size: 36px;
+  .slider_area .title_text h1 {
+    font-size: 33px;
     line-height: 43px;
     margin-bottom: 30px;
   }
@@ -1249,8 +1249,8 @@ h3 {
 
 @media (min-width: 768px) and (max-width: 991px) {
   /* line 97, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
-  .slider_area .title_text h3 {
-    font-size: 46px;
+  .slider_area .title_text h1 {
+    font-size: 33px;
     line-height: 55px;
     margin-bottom: 30px;
   }
@@ -1258,7 +1258,7 @@ h3 {
 
 @media (min-width: 992px) and (max-width: 1200px) {
   /* line 97, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
-  .slider_area .title_text h3 {
+  .slider_area .title_text h1 {
     font-size: 60px;
     line-height: 70px;
     margin-bottom: 20px;
@@ -1369,10 +1369,10 @@ h3 {
   -moz-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
-  font-size: 120px;
+  font-size: 100px;
   top: -125px;
   color: rgba(255, 255, 255, 0.08);
-  font-weight: 700;
+  font-weight: 500;
   right: -87px;
 }
 
