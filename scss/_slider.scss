@@ -23,7 +23,7 @@
         position: relative;
         margin-bottom: 213px;
         z-index: 3;
-        padding: 55px 8px 12px 0px;
+        padding: 55px 8px 8px 0px;
         @media #{$mobile_device} {
             margin-bottom: 30px;
         }
@@ -94,8 +94,8 @@
                 display: none;
             }
         }
-        h3{
-            font-size: 90px;
+        h1{
+            font-size: 70px;
             font-weight: 700;
             text-transform: capitalize;
             line-height: 100px;
@@ -159,7 +159,7 @@
                 margin-right: 10px;
                 margin-top: 20px;
             }
-            h3{
+            h1{
                 color: #fff;
                 font-size: 46px;
                 font-weight: 600;
